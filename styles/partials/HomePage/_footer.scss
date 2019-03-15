@@ -1,0 +1,15 @@
+footer {
+    padding: $xl-size 0;
+    
+    .wrapper > div {
+        width:30%;
+        float:left;
+        margin-right:$xl-size;
+        // border:1px solid red;
+        text-align:center;
+
+        &:last-child {
+            margin-right:0;
+        };
+    };
+};

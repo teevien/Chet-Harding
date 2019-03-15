@@ -1,0 +1,24 @@
+.services {
+    padding:$padding 0;
+
+    h1 {
+        text-align:center;
+    };
+};
+
+.services__flexbox {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:$m-size;
+
+    .services__box {
+        width:calc(30% - 10px);
+        margin:$m-size;
+        box-shadow:10px 10px $accentColor;
+
+        img {
+            width:100%;
+            display:block;
+        };
+    };
+};

@@ -1,0 +1,36 @@
+.blog {
+    background: $off-white;
+    padding: $padding 0;
+
+    .blog__main, aside {
+        margin:$m-size;
+        // border:1px solid red;
+    };
+
+    .blog__main {
+        width:50%;
+        float:right;
+
+        .blog__content {
+            background: $white;
+            padding: $l-size;
+            &:nth-child(2) {
+                margin-top: $l-size;
+            }
+        }
+        
+    };
+
+    aside {
+        width:40%;
+        float:left;
+
+        div {
+            background: $white;
+            padding: $m-size;
+            &:nth-child(2) {
+                margin-top: $l-size;
+            }
+         };
+    };
+};

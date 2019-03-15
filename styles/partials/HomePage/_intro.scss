@@ -1,0 +1,28 @@
+.intro {
+    background: $off-white;
+    padding: $padding 0;
+
+    .intro__content {
+        // border:1px solid red;
+        width:55%;
+        float:right;
+        margin-right:$xl-size;
+        
+        p {
+            margin-bottom:$l-size;
+        };
+    };
+
+    .intro__image {
+        // border:1px solid red;
+        width:15%;
+        float:right;
+        margin-right:10rem;
+
+        img {
+            display:block;
+            width:100%;
+            box-shadow: 10px 10px $accentColor;
+        };
+    };
+};

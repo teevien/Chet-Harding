@@ -1,0 +1,41 @@
+// font
+$baseFont: 'Open Sans', sans-serif;
+$headingFont: 'Oswald', sans-serif;
+
+// colors
+$white: #ffffff;
+$off-white: #EEEEEE;
+$black: #000000;
+$grey: #c4c4c4;
+$accentColor: #8B5555;
+
+// size
+$s-size: 1.6rem;
+$m-size: 2.4rem;
+$l-size: 3.6rem;
+$xl-size: 4.8rem;
+$padding:10rem;
+
+//mixins
+@mixin baseFont {
+    font-size: $s-size;
+    font-family: $baseFont;
+    margin:0;
+    letter-spacing:1.5px;
+    line-height:30px;
+}
+
+@mixin mainHeading($size) {
+    font-size: $size;
+    font-family: $headingFont;
+    margin:0;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+
+@mixin links {
+    font-family:$headingFont;
+    text-transform:uppercase;
+    text-decoration:none;
+    color: $black;
+}

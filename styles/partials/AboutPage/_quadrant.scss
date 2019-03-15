@@ -1,0 +1,32 @@
+.quadrant {
+    background: $off-white;
+}
+
+.quadrant__flexbox {
+    display:flex;
+
+    &:nth-child(2) {
+        flex-direction: row-reverse;
+
+        .quadrant__image {
+            margin-right:auto;
+            box-shadow:-15px 15px $accentColor;
+        };
+    };
+
+    .quadrant__content {
+        width:40%;
+        margin-left:auto;
+        padding:$xl-size $xl-size 0 0;
+    };
+
+    .quadrant__image {
+        width:50%;
+        box-shadow: 15px -15px $accentColor;
+
+        img {
+            width:100%;
+            display:block;
+        };
+    };
+};

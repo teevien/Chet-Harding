@@ -1,0 +1,31 @@
+html {
+    font-size:62.5%;
+
+    body {
+        @include baseFont;
+        
+        .wrapper {
+            margin:0 auto;
+            max-width:1280px;
+            width:85%;
+        }
+
+        h2 {
+            @include mainHeading(10rem);
+        };
+
+        h1 {
+            @include mainHeading($m-size);
+        };
+
+        a {
+            @include links;
+        };
+
+        section a {
+            @include links;
+            background: $accentColor;
+            padding:10px 15px;
+        }
+    };
+};
